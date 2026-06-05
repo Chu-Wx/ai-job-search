@@ -39,18 +39,18 @@ Expected output: `Output written on main_<company>.pdf (2 pages, ...)`. Any page
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={Chuwei Xu - CV},
     pdfpagemode=FullScreen,
 }
 \usepackage[scale=0.77]{geometry}
 \usepackage{import}
 
 % Personal data
-\name{[FIRST_NAME]}{[LAST_NAME]}
-\address{[YOUR_ADDRESS]}{}{}
-\phone[mobile]{[YOUR_PHONE]}
-\email{[YOUR_EMAIL]}
-\extrainfo{\href{[YOUR_LINKEDIN_URL]}{LinkedIn}, \href{[YOUR_GITHUB_URL]}{GitHub}}
+\name{Chuwei (Pete)}{Xu}
+\address{New Jersey, United States}{}{}
+\phone[mobile]{+1 (860) 634-1906}
+\email{chuweismail@gmail.com}
+\extrainfo{\href{https://linkedin.com/in/chuwei-xu}{LinkedIn}}
 
 \begin{document}
 \makecvtitle
@@ -105,12 +105,14 @@ Write 5-7 lines that function as an "elevator pitch": a concise, compelling intr
 
 **Create 2-3 profile statement templates for your main role types:**
 
-<!-- SETUP: These are populated based on your background -->
-**For [YOUR_PRIMARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_1]
+**For backend software engineer roles:**
+> Software engineer with production experience building Java/Spring Boot microservices, Kafka-based post-trade processing pipelines, and OracleDB-backed trade lifecycle APIs in financial technology. Strong record of improving throughput, reliability, observability, and CI/CD delivery across services running in enterprise environments.
 
-**For [YOUR_SECONDARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_2]
+**For platform / distributed systems roles:**
+> Backend and platform-focused software engineer experienced with high-throughput event processing, distributed tracing, Elastic APM, Docker/OpenShift deployments, and GitLab CI/CD. Brings practical ownership across service implementation, monitoring, release automation, and production reliability.
+
+**For data engineering / ETL roles:**
+> Software engineer with experience building ETL and data-processing tooling across Java, Python, Kafka, OracleDB, SQLite, Pandas, and XML parsing workflows. Has delivered measurable improvements in processing time, data transform performance, and manual-work reduction in financial and engineering team environments.
 
 ### Core Competencies / Skills Section (Best Practice)
 Reorder and emphasize based on the role. Use bold category labels.

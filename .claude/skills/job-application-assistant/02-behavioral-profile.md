@@ -1,50 +1,53 @@
 # Behavioral Profile
 
-<!-- SETUP: This file is populated by running /setup -->
-<!-- You can use results from PI, DISC, Myers-Briggs, StrengthsFinder, or a self-assessment -->
-
 ## Overview
-[YOUR_NAME]'s behavioral assessment identifies them as a **[PROFILE_TYPE]** pattern. [1-2 SENTENCE_SUMMARY].
+No formal behavioral assessment is on file. The notes below are inferred from Chuwei (Pete) Xu's resume and should be reviewed before relying on them in applications.
+
+Chuwei's resume shows a software engineer who is strongest in backend systems where reliability, throughput, observability, and production ownership matter. The strongest evidence is repeated work on microservices, Kafka processing, CI/CD, tracing, and measurable process improvements.
 
 ## Core Behavioral Drives
 
 | Drive | Level | Meaning |
 |-------|-------|---------|
-| [DRIVE_1] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_2] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_3] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_4] | [LEVEL] | [DESCRIPTION] |
+| Ownership | High, inferred | Takes responsibility for production-facing systems, release pipelines, and operational visibility. |
+| Technical depth | High, inferred | Works deeply in backend services, data pipelines, schema migrations, and distributed tracing. |
+| Process improvement | High, inferred | Multiple resume outcomes emphasize faster processing, reduced manual work, and better investigation time. |
+| Collaboration | Moderate-high, inferred | Resume mentions collaboration with observability teams, Tech Leads, managers, and cross-service stakeholders. |
 
 ## Strongest Behaviors
-- **[BEHAVIOR_1]:** [DESCRIPTION]
-- **[BEHAVIOR_2]:** [DESCRIPTION]
-- **[BEHAVIOR_3]:** [DESCRIPTION]
+- **Systems-minded problem solving:** Frames work around pipelines, service chains, traceability, schema correctness, and production operations.
+- **Performance orientation:** Looks for measurable improvements such as reducing processing time, investigation time, and redundant manual work.
+- **Operational discipline:** Comfortable with CI/CD, regression testing, release pipelines, monitoring, and production deployment practices.
 
 ## How You Work Best
-- [ENVIRONMENT_PREFERENCE_1]
-- [ENVIRONMENT_PREFERENCE_2]
-- [ENVIRONMENT_PREFERENCE_3]
+- Backend or platform teams where service reliability, data correctness, and performance matter.
+- Environments with clear ownership of services from implementation through deployment and monitoring.
+- Teams that value measurable outcomes, practical automation, and clean operational feedback loops.
 
 ## Growth Areas (frame positively in applications)
-- **[AREA_1]:** [HOW_TO_FRAME_IT_POSITIVELY]
-- **[AREA_2]:** [HOW_TO_FRAME_IT_POSITIVELY]
+- **Frontend scope is secondary:** The resume is strongest for backend and platform roles. Frame frontend work as a useful complement, not the core pitch, unless the role is full-stack.
+- **AI/ML claims should stay practical:** The resume mentions AI engineering and retrieval-augmented generation, but the strongest evidence is software engineering and systems delivery. Position AI as applied tooling and integration unless more project detail is added.
 
 ## Mapping to Job Posting Language
 
 When a job posting mentions these keywords, it's a **strong behavioral fit**:
-- [KEYWORD_OR_PHRASE_THAT_MATCHES_YOUR_STYLE]
-- [ANOTHER_KEYWORD]
+- Backend systems, distributed systems, microservices, Kafka, Spring Boot
+- Observability, tracing, production reliability, CI/CD, DevOps
+- Data pipelines, ETL, financial technology, trade processing
+- Performance optimization, automation, platform engineering
 
 When a job posting mentions these, flag as **potential friction** (not deal-breaker):
-- [KEYWORD_OR_PHRASE_THAT_MIGHT_CLASH]
-- [ANOTHER_KEYWORD]
+- Primarily visual design or frontend-only UI work
+- Roles centered on data science research rather than software delivery
+- Roles requiring deep mobile/iOS production experience unless BodyTrack is intentionally included as supporting project evidence
 
 ## Management Style Preferences
-- [WHAT_MANAGEMENT_STYLE_WORKS_FOR_YOU]
-- [WHAT_DOESN'T_WORK]
+- Likely works well with managers who define business goals clearly and give room to design practical technical solutions.
+- Likely benefits from teams that support production ownership with access to logs, metrics, release context, and architectural decision-making.
+- Formal preferences not provided; ask Chuwei before making claims about preferred leadership style.
 
 ## Using This in Applications
-- **Cover letters:** [HOW_TO_WEAVE_IN_BEHAVIORAL_STRENGTHS]
-- **CV:** [WHAT_TO_EMPHASIZE]
-- **Interviews:** [WHAT_STAR_EXAMPLES_TO_USE]
-- **Don't overstate:** [WHAT_NOT_TO_CLAIM]
+- **Cover letters:** Emphasize backend ownership, measurable system improvements, and production reliability.
+- **CV:** Lead with Java/Spring Boot, Kafka, observability, CI/CD, and finance-domain backend work.
+- **Interviews:** Use STAR examples around Kafka parallelization, Elastic APM tracing, ETL optimization, and Django automation.
+- **Don't overstate:** Do not claim formal behavioral assessment results, people-management experience, or research-level ML expertise unless Chuwei provides supporting details.

@@ -1,10 +1,7 @@
-# Job Application Assistant for [YOUR_NAME]
-
-<!-- SETUP: This file is populated by running /setup -->
-<!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
+# Job Application Assistant for Chuwei (Pete) Xu
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Chuwei (Pete) Xu, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -13,68 +10,72 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 
 ## Candidate Profile
 
-<!-- This section is auto-populated by /setup. You can also fill it in manually. -->
-
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
-- **Languages:** [YOUR_LANGUAGES]
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Name:** Chuwei (Pete) Xu
+- **Location:** New Jersey, United States (current role is in New York, NY; exact commute and hybrid/remote preferences need confirmation)
+- **Languages:** Spoken languages not provided in resume
+- **Status:** Software Engineer at Barclays since Feb. 2023
+- **LinkedIn headline:** Software Engineer / Backend Engineer focused on Java, Spring Boot, Kafka, distributed systems, and fintech platforms
 
 ### Education
-<!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **M.S. in Industrial Engineering, Honors Scholar** (Sep. 2021-Dec. 2022) - New York University
+  - GPA: 3.6/4.0
+  - Topics: industrial engineering, software engineering, data systems
+- **B.S. in Mechanical Engineering, Honors Scholar** (Sep. 2017-May 2021) - New York University
+  - GPA: 3.7/4.0
 
 ### Professional Experience
-<!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **Software Engineer** (Feb. 2023-Present) - **Barclays** (New York, NY)
+  - Builds Java/Spring Boot microservices for FX and cash swap post-trade processing across Kafka-based trade event pipelines.
+  - Designs trade lifecycle APIs with TradeStore ingestion, ATC enrichment, validation retry logic, OracleDB persistence, and Liquibase schema migrations.
+  - Architected Elastic APM distributed tracing, achieving 100% trace capture across a microservice chain and reducing investigation time by 40%.
+  - Optimized Kafka batch reconciliation with Java `CompletableFuture`, reducing processing time from 60 minutes to 15 minutes for 5 primary topics.
+  - Maintains GitLab CI/CD, Docker builds, static analysis, OpenShift deployments, and regression/unit-test workflows across dev, SIT, UAT, and production.
+- **Software Engineer Intern** (Jun. 2022-Aug. 2022) - **Barclays** (New York, NY)
+  - Built ETL tooling for a risk management and data platform market team.
+  - Used Python ElementTree, Java, and Pandas to improve elapsed processing time by 20% and transform performance by 17%.
+  - Contributed Ab Initio transform blocks plus reusable error handling and testing blocks.
+- **Software Engineer Intern** (Jan. 2022-May 2022) - **Cisco Systems, Inc.** (New York, NY)
+  - Helped build a Django/SQLite backend for hardware-team test-data workflows.
+  - Automated detection, correction, monitoring, error handling, and data-flow recording, improving work efficiency by 68% and reducing redundant labor by 55%.
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** Java, Spring Boot, Kafka, OracleDB, SQL, backend microservices, distributed tracing, Elastic APM, CI/CD, Docker, OpenShift/Kubernetes
+- **Secondary:** Python, Django, Pandas, ElementTree, TypeScript, JavaScript, React, Angular, Redis, C++, Jenkins, Ansible, Liquibase
+- **Domain:** Financial technology, FX and cash swap post-trade processing, ETL/data pipelines, distributed systems, production observability
+- **Software:** GitLab CI/CD, GitLab, Docker, OpenShift, Kubernetes, Kafka, Elasticsearch, Elastic APM, OracleDB, SQL Developer, Liquibase, Ansible, Jenkins
 
 ### Certifications
-<!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+- No certifications provided in resume.
 
 ### Publications
-<!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+- No publications provided in resume.
 
 ### Awards
-<!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+- Honors Scholar - New York University M.S. in Industrial Engineering
+- Honors Scholar - New York University B.S. in Mechanical Engineering
 
 ### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+No formal behavioral assessment is on file. The following is inferred from the resume and should be reviewed before relying on it in applications.
+- **Systems-minded ownership** - Strongest evidence is production backend work across microservices, Kafka, OracleDB, tracing, CI/CD, and OpenShift deployments.
+- **Performance and reliability orientation** - Resume repeatedly emphasizes faster processing, better traceability, reduced manual work, and improved operational detection.
+- **Strengths:** backend service design, data pipeline implementation, production observability, CI/CD automation, measurable process improvement.
+- **Growth areas:** keep AI/ML claims practical unless more evidence is added; lead with backend/platform strengths over frontend-only work.
+- **Thrives in:** backend, platform, fintech, or distributed-systems teams with production ownership and measurable reliability/performance goals.
 
 ### What Excites You
-<!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- Backend systems where correctness, throughput, and reliability matter.
+- Production ownership across implementation, deployment, monitoring, and continuous improvement.
+- Fintech, capital markets, data pipeline, and platform engineering problems.
 
 ### Target Sectors
-<!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- Financial technology and capital markets: banks, trading platforms, payment platforms, risk/data platforms.
+- Enterprise backend/platform engineering: software companies, infrastructure teams, cloud/platform teams.
+- Data engineering and ETL-heavy teams: financial services, analytics platforms, internal data platforms.
 
 ### Deal-breakers
-<!-- Hard constraints on job search -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- Requires relocation outside the New York/New Jersey area unless Chuwei confirms interest.
+- Exact salary, remote/hybrid, commute, visa, and schedule constraints are not provided yet; ask before treating them as hard filters.
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)

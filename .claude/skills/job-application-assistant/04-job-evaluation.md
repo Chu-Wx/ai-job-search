@@ -16,9 +16,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** Java, Spring Boot, Kafka, backend microservices, OracleDB/SQL, CI/CD, Docker, OpenShift/Kubernetes, distributed tracing, Elastic APM, ETL/data pipelines.
+**Moderate match areas:** Python, Django, Pandas, TypeScript, JavaScript, React, Angular, Redis, Jenkins, Ansible, Liquibase, applied AI/RAG tooling.
+**Weak match areas:** Deep machine learning research, mobile/iOS production development, frontend-only design roles, people-management roles, and technologies not shown in the resume unless Chuwei provides more evidence.
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for?
@@ -30,9 +30,9 @@ Does work history align with what they're looking for?
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** Backend software engineering, financial technology, post-trade processing, FX/cash swap systems, data pipelines, platform reliability, observability, CI/CD automation.
+**Moderate:** Full-stack engineering, Python backend engineering, data engineering, DevOps/platform engineering, AI tooling integration.
+**Entry-level:** Mobile engineering, frontend-only product engineering, data science research, engineering management.
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -63,19 +63,19 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Grow as a software engineer in backend, platform, distributed-systems, or fintech engineering roles.
+- Work on production systems where reliability, throughput, and data correctness have visible business impact.
+- Build deeper ownership of architecture, service design, observability, and deployment pipelines.
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
+- Tasks that energize: backend service design, high-throughput data processing, performance optimization, observability, automation, CI/CD, and production reliability.
+- Tasks that drain: not provided directly; treat frontend-only visual design, repetitive manual operations, and poorly scoped maintenance-only roles as possible friction until Chuwei confirms.
 - Non-task factors: leadership style, department culture, company values, degree of autonomy
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+- **Security**: Salary and financial baseline not provided.
+- **Flexibility**: Resume lists New Jersey with work in New York, NY; exact commute, remote, and hybrid preferences need confirmation.
+- **Professional development**: Prefer roles that deepen backend architecture, distributed systems, production operations, and technical ownership.
 
 ### 6. Salary Benchmark (Optional)
 

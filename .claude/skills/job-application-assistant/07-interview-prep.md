@@ -10,44 +10,47 @@ Keep answers to 1-2 minutes. Be specific. End with what you learned or would do 
 
 ## Ready-Made STAR Examples
 
-<!-- These are populated by /setup from your actual experience. Below are templates showing the format. -->
+### 1. Kafka batch reconciliation optimization (performance optimization)
+**S:** Barclays' end-of-day batch reconciliation depended on sequential Kafka topic processing across primary topics.
+**T:** Improve batch processing throughput without sacrificing correctness or thread safety.
+**A:** Re-architected sequential Kafka processing into parallel execution using Java `CompletableFuture`; maintained thread safety while processing millions of trade events concurrently.
+**R:** Reduced critical path processing time from 60 minutes to 15 minutes for 5 primary topics.
+**Use for:** "Tell me about a performance optimization", "Describe a time you improved a production process", "How do you approach concurrency?"
 
-### 1. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT - what was happening, what was the problem]
-**T:** [YOUR RESPONSIBILITY - what you specifically needed to do]
-**A:** [WHAT YOU DID - specific actions, tools, methods]
-**R:** [OUTCOME - measurable results, adoption, impact]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 2. Elastic APM distributed tracing rollout (observability and production ownership)
+**S:** A post-trade microservice chain had cross-service trace-continuity gaps that made production investigation slower.
+**T:** Improve service traceability and reduce investigation time across the chain.
+**A:** Architected a distributed tracing solution using Elastic APM, coordinated trace context propagation across services, and collaborated with the observability team on infrastructure and alerting support.
+**R:** Achieved 100% trace capture across the microservice chain and reduced cross-service investigation time by 40%.
+**Use for:** "Tell me about debugging a distributed system", "How do you improve production reliability?", "Describe cross-team collaboration."
 
-### 2. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 3. Barclays ETL caching and transform improvement (data pipeline engineering)
+**S:** The risk management and data platform team had an ETL processing tool with avoidable repeated parsing and transformation overhead.
+**T:** Improve processing efficiency and data transform performance during an internship project.
+**A:** Implemented in-memory caching of parsed source data; used Python `ElementTree`, Java, and Anaconda Pandas to improve XML extraction and transformation flow.
+**R:** Improved elapsed processing time by 20% and improved data transform performance by 17%.
+**Use for:** "Tell me about an internship project", "How do you improve data pipeline performance?", "Describe a time you learned a stack quickly."
 
-### 3. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
-
-<!-- Add more STAR examples as needed. Aim for 4-6 covering different competencies. -->
+### 4. Cisco Django automation project (automation and backend development)
+**S:** A hardware team had a manual test-data detection and correction process that created redundant labor.
+**T:** Automate parts of the workflow and improve backend data recording and monitoring.
+**A:** Helped construct a Django backend using SQLite; applied watchdog and supervisor modules for automatic background monitoring, error handling, and data-flow recording.
+**R:** Increased work efficiency by 68% and reduced redundant labor by 55%.
+**Use for:** "Tell me about automating a manual process", "Describe backend work outside your current domain", "How do you handle error monitoring?"
 
 ## Common Tough Questions
 
-### "Why did you leave [previous company]?"
-> [PREPARE YOUR ANSWER - be honest, forward-looking, no negativity about former employer]
+### "Why are you looking for a new role?"
+> I have built strong backend and production-system experience at Barclays, especially around microservices, Kafka processing, CI/CD, and observability. I am looking for a role where I can keep growing technically, take on deeper ownership of distributed systems, and work on products where reliability and performance have visible impact.
 
 ### "You don't have [specific skill/experience]."
-> [PREPARE YOUR ANSWER - acknowledge the gap, bridge to adjacent experience, show willingness to learn]
+> I would be transparent about the gap, then connect it to adjacent experience. For example, if the gap is a specific cloud service, I would point to my Docker/OpenShift, CI/CD, Kafka, and production deployment experience, then explain how I would ramp up quickly through documentation, small scoped changes, and pairing with teammates.
 
 ### "Where do you see yourself in 5 years?"
-> [PREPARE YOUR ANSWER - show ambition aligned with the role's growth path]
+> I want to grow into a senior backend/platform engineer who can own service design, reliability, observability, and delivery for important production systems. I am especially interested in systems where correctness, throughput, and operational quality matter.
 
 ### "What's your biggest weakness?"
-> [PREPARE YOUR ANSWER - genuine weakness with concrete mitigation strategy]
+> Need Chuwei's input for an authentic answer. Avoid inventing a weakness. A possible direction, if true, is balancing depth with communication: "I can go deep into implementation details, so I make a deliberate effort to summarize tradeoffs clearly for stakeholders before going too far into the technical weeds."
 
 ### "Why this company specifically?"
 > Customize per company. Must reference: specific projects, company values, market position, or team structure. Never give a generic answer.

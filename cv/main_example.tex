@@ -1,10 +1,7 @@
-%% Example CV - [YOUR_NAME]
-%% Comprehensive overview of all competencies, experience, and achievements.
+%% Example CV - Chuwei (Pete) Xu
+%% Comprehensive overview of competencies, experience, and achievements.
 %% Use as a master reference when tailoring role-specific CVs.
-%%
-%% SETUP: Run /setup to populate this with your actual information.
 %% Compile with: lualatex main_example.tex
-%% (pdflatex often fails on modern MiKTeX with fontawesome5 font-expansion errors.)
 
 \documentclass[11pt,a4paper,sans]{moderncv}
 \moderncvstyle{banking}
@@ -24,18 +21,18 @@
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={Chuwei Xu - CV},
     pdfpagemode=FullScreen,
 }
 \usepackage[scale=0.80]{geometry}
 \usepackage{import}
 
 % personal data
-\name{[First]}{[Last]}
-\address{[Your Address, City, Country]}{}{}
-\phone[mobile]{[+XX XXXXXXXXXX]}
-\email{[your.email@example.com]}
-\extrainfo{\href{[https://linkedin.com/in/your-profile]}{LinkedIn}, \href{[https://github.com/your-username]}{GitHub}}
+\name{Chuwei (Pete)}{Xu}
+\address{New Jersey, United States}{}{}
+\phone[mobile]{+1 (860) 634-1906}
+\email{chuweismail@gmail.com}
+\extrainfo{\href{https://linkedin.com/in/chuwei-xu}{LinkedIn}}
 
 \begin{document}
 
@@ -46,7 +43,7 @@
 % ============================================================
 
 \vspace{6pt}
-\small{[Write a 3-5 line profile statement tailored to the role you're applying for. Focus on what makes you uniquely qualified. Example: "Data scientist with a PhD in [field] and X years of industry experience. Combines deep domain expertise in [domain] with strong applied machine learning and Python development skills. Experienced in developing end-to-end ML pipelines, from data ingestion to stakeholder-facing dashboards."]}
+\small{Software engineer with production experience building Java/Spring Boot microservices, Kafka-based post-trade processing pipelines, and OracleDB-backed trade lifecycle APIs in financial technology. Strong record of improving throughput, reliability, observability, and CI/CD delivery across enterprise environments.}
 
 % ============================================================
 %     CORE COMPETENCIES
@@ -56,15 +53,15 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item \textbf{[Skill Category 1]}: [Specific skills, frameworks, tools. Be concrete.]
+\item \textbf{Backend Engineering}: Java, Spring Boot, Spring Cloud, Spring Batch, Hibernate/JPA, microservices, REST APIs.
 
-\item \textbf{[Skill Category 2]}: [Specific skills, frameworks, tools.]
+\item \textbf{Data and Messaging Systems}: Kafka, OracleDB, SQL, SQLite, Redis, XML parsing, ETL pipelines, data transform workflows.
 
-\item \textbf{[Skill Category 3]}: [Specific skills, frameworks, tools.]
+\item \textbf{Production Reliability}: Elastic APM, Elasticsearch, distributed tracing, JVM metrics, alerting, validation retry logic, failure-rate monitoring.
 
-\item \textbf{[Skill Category 4]}: [Domain expertise, methods, approaches.]
+\item \textbf{DevOps and Delivery}: GitLab CI/CD, Docker, OpenShift/Kubernetes, Jenkins, Ansible, Liquibase, TDD, regression testing.
 
-\item \textbf{[Skill Category 5]}: [Tools, platforms, software.]
+\item \textbf{Web and Scripting}: Python, Django, Pandas, ElementTree, TypeScript, JavaScript (ES6+), React, Angular, C++.
 
 \end{itemize}
 
@@ -76,32 +73,31 @@
 \vspace{3pt}
 \begin{itemize}
 
-% --- Most Recent Role ---
-\item{\cventry{[YYYY--Present]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\item{\cventry{Feb. 2023--Present}{Software Engineer}{Barclays}{New York, NY}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1 - be specific, use numbers where possible]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
-    \item [Achievement or responsibility 4]
+    \item Engineered upstream high-throughput post-trade processing pipeline for FX and cash swap products across 7 Spring Boot microservices, improving daily trade event throughput on an internal Kafka streaming platform.
+    \item Designed trade lifecycle APIs managing TradeStore ingestion, ATC enrichment, validation with automated retry logic, and OracleDB persistence using SQL Developer and Liquibase schema migrations.
+    \item Architected distributed tracing with Elastic APM, achieving 100\% trace capture across a microservice chain and reducing cross-service investigation time by 40\%.
+    \item Optimized end-of-day Kafka batch reconciliation by re-architecting sequential topic processing into parallel execution with Java CompletableFuture, reducing processing time from 60 minutes to 15 minutes for 5 primary topics.
+    \item Established GitLab CI/CD infrastructure with static analysis, Docker builds, multi-stage pipelines, and automated OpenShift deployments across dev, SIT, UAT, and production.
 \end{itemize}}}
 
 \vspace{3pt}
 
-% --- Previous Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\item{\cventry{Jun. 2022--Aug. 2022}{Software Engineer Intern}{Barclays}{New York, NY}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
+    \item Implemented an ETL data processing tool for a risk management and data platform market team, improving elapsed time by 20\% through in-memory caching of parsed source data.
+    \item Used Python ElementTree with Java, plus Anaconda Pandas, to improve data extraction and transform performance by 17\%.
+    \item Scaled transform block implementation inside Ab Initio and contributed reusable error handling and testing blocks, increasing data cycle quality, accuracy, and scalability by 5\%.
 \end{itemize}}}
 
 \vspace{3pt}
 
-% --- Earlier Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\item{\cventry{Jan. 2022--May 2022}{Software Engineer Intern}{Cisco Systems, Inc.}{New York, NY}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
+    \item Participated in Django backend construction for a hardware team, automating test-data detection and correction and increasing work efficiency by 68\%.
+    \item Used Django and SQLite with watchdog and supervisor modules for background monitoring, error handling, and backend data-flow recording, reducing redundant labor by 55\%.
+    \item Implemented structural framework design and deployed on Linux, improving output readability by 44\%.
 \end{itemize}}}
 
 \end{itemize}
@@ -114,46 +110,27 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-Thesis: ``[Thesis Title].'' [Brief description of research focus.]
+\item{\cventry{Sep. 2021--Dec. 2022}{M.S. in Industrial Engineering, Honors Scholar}{New York University}{New York, NY}{}{\vspace{1pt}
+GPA: 3.6/4.0.
 }}
 
 \vspace{3pt}
 
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-[Brief description or key topics.]
+\item{\cventry{Sep. 2017--May 2021}{B.S. in Mechanical Engineering, Honors Scholar}{New York University}{New York, NY}{}{\vspace{1pt}
+GPA: 3.7/4.0.
 }}
 
 \end{itemize}
 
 % ============================================================
-%     LANGUAGES
-% ============================================================
-
-\section{Languages}
-\vspace{1pt}
-\begin{itemize}
-\item [Language 1] (native), [Language 2] (fluent), [Language 3] (intermediate).
-\end{itemize}
-
-% ============================================================
-%     PUBLICATIONS (optional)
-% ============================================================
-
-\section{Publications}
-\vspace{1pt}
-\begin{itemize}
-\item [Author(s)] ([Year]). [Title]. [Journal/Conference]. \href{[DOI_URL]}{DOI link}
-\end{itemize}
-
-% ============================================================
-%     HONORS AND AWARDS (optional)
+%     HONORS AND AWARDS
 % ============================================================
 
 \section{Honors and Awards}
 \vspace{1pt}
 \begin{itemize}
-\item{\textbf{[Award Name]} -- [Event/Organization] ([Year]).}
+\item{\textbf{Honors Scholar} -- New York University M.S. in Industrial Engineering.}
+\item{\textbf{Honors Scholar} -- New York University B.S. in Mechanical Engineering.}
 \end{itemize}
 
 % ============================================================
