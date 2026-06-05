@@ -50,7 +50,7 @@ Expected output: `Output written on main_<company>.pdf (2 pages, ...)`. Any page
 \address{New Jersey, United States}{}{}
 \phone[mobile]{+1 (860) 634-1906}
 \email{chuweismail@gmail.com}
-\extrainfo{\href{https://linkedin.com/in/chuwei-xu}{LinkedIn}}
+\extrainfo{\href{https://linkedin.com/in/chuwei-xu}{LinkedIn} \textbullet{} \href{https://github.com/Chu-Wx}{GitHub}}
 
 \begin{document}
 \makecvtitle

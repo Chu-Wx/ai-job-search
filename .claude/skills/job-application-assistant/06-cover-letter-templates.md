@@ -72,7 +72,7 @@ The font wrapper is mandatory — if you just move `\begin{itemize}` outside `\l
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     TITLE NAME
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\namesection{}{\Huge{Chuwei (Pete) Xu}}{  \href{mailto:chuweismail@gmail.com}{chuweismail@gmail.com} | +1 (860) 634-1906 |  \urlstyle{same}\href{https://linkedin.com/in/chuwei-xu}{LinkedIn}
+\namesection{}{\Huge{Chuwei (Pete) Xu}}{  \href{mailto:chuweismail@gmail.com}{chuweismail@gmail.com} | +1 (860) 634-1906 |  \urlstyle{same}\href{https://linkedin.com/in/chuwei-xu}{LinkedIn} | \urlstyle{same}\href{https://github.com/Chu-Wx}{GitHub}
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

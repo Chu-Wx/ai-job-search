@@ -2,14 +2,14 @@
 
 ## Identity
 - **Name:** Chuwei (Pete) Xu
-- **Location:** New Jersey, United States
+- **Location:** Greater NYC / New Jersey, United States
 - **Phone:** +1 (860) 634-1906
 - **Email:** chuweismail@gmail.com
 - **LinkedIn:** https://linkedin.com/in/chuwei-xu
-- **GitHub:** Not provided in resume
-- **Languages:** Spoken languages not provided in resume
+- **GitHub:** https://github.com/Chu-Wx
+- **Languages:** Mandarin Chinese (native); English (fluent/professional)
 - **Status:** Software Engineer at Barclays since Feb. 2023
-- **Constraints:** Location and commute constraints not provided; resume lists New Jersey with current work in New York, NY.
+- **Constraints:** Primary search area is Greater NYC and New Jersey. Open to relocation to Seattle and California. H-1B transfer sponsorship is required; PERM / green card processing support is preferred. Minimum compensation: $165k.
 
 ## Education
 
@@ -45,7 +45,7 @@ New York, NY
 - Applied Django UI design to deliver requested features for a Tech Lead and manager; implemented structural framework design and deployed on Linux, improving output readability by 44%.
 
 ## Independent Projects
-- **BodyTrack iOS app:** Native iOS health and nutrition tracker project using SwiftUI, SwiftData, and Gemini-powered nutrition parsing. Add details if you want this included in job applications.
+- **BodyTrack iOS app:** Native iOS health and nutrition tracker built with SwiftUI, SwiftData, and AI-assisted nutrition parsing.
 
 ## Technical Skills
 

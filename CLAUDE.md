@@ -12,8 +12,8 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 
 ### Identity
 - **Name:** Chuwei (Pete) Xu
-- **Location:** New Jersey, United States (current role is in New York, NY; exact commute and hybrid/remote preferences need confirmation)
-- **Languages:** Spoken languages not provided in resume
+- **Location:** Greater NYC / New Jersey, United States; open to relocation to Seattle and California
+- **Languages:** Mandarin Chinese (native); English (fluent/professional)
 - **Status:** Software Engineer at Barclays since Feb. 2023
 - **LinkedIn headline:** Software Engineer / Backend Engineer focused on Java, Spring Boot, Kafka, distributed systems, and fintech platforms
 
@@ -68,14 +68,19 @@ No formal behavioral assessment is on file. The following is inferred from the r
 - Production ownership across implementation, deployment, monitoring, and continuous improvement.
 - Fintech, capital markets, data pipeline, and platform engineering problems.
 
+### Independent Projects
+- **BodyTrack iOS app:** Native iOS health and nutrition tracker built with SwiftUI, SwiftData, and AI-assisted nutrition parsing.
+
 ### Target Sectors
 - Financial technology and capital markets: banks, trading platforms, payment platforms, risk/data platforms.
 - Enterprise backend/platform engineering: software companies, infrastructure teams, cloud/platform teams.
 - Data engineering and ETL-heavy teams: financial services, analytics platforms, internal data platforms.
 
 ### Deal-breakers
-- Requires relocation outside the New York/New Jersey area unless Chuwei confirms interest.
-- Exact salary, remote/hybrid, commute, visa, and schedule constraints are not provided yet; ask before treating them as hard filters.
+- Requires relocation outside Greater NYC/NJ, Seattle, or California unless Chuwei confirms interest.
+- Minimum compensation is $165k.
+- Requires H-1B transfer sponsorship; PERM / green card processing support is preferred.
+- Open to onsite, hybrid, and remote roles in preferred locations.
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)

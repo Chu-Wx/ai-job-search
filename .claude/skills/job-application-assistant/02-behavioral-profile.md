@@ -39,7 +39,7 @@ When a job posting mentions these keywords, it's a **strong behavioral fit**:
 When a job posting mentions these, flag as **potential friction** (not deal-breaker):
 - Primarily visual design or frontend-only UI work
 - Roles centered on data science research rather than software delivery
-- Roles requiring deep mobile/iOS production experience unless BodyTrack is intentionally included as supporting project evidence
+- Roles requiring deep mobile/iOS production experience as the primary qualification; BodyTrack can be used as supporting project evidence for SwiftUI, SwiftData, and AI-assisted app development.
 
 ## Management Style Preferences
 - Likely works well with managers who define business goals clearly and give room to design practical technical solutions.

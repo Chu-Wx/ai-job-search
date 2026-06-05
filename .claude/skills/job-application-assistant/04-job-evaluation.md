@@ -47,10 +47,13 @@ Does the role and company culture match the behavioral profile?
 **Red flags to research:** Department disorganization, work dominated by maintenance over development, poor chemistry with leadership, culture mismatches. Check reviews, media coverage, LinkedIn connections, and network contacts for insider perspective.
 
 ### 4. Location & Logistics (Pass/Fail + Notes)
-- Within commute range: PASS
+- Greater NYC / New Jersey: PASS
 - Remote with occasional office: PASS
-- Requires relocation: FAIL (deal-breaker)
+- Seattle or California relocation: PASS if compensation, sponsorship, and role fit are strong
+- Relocation outside Greater NYC/NJ, Seattle, or California: FAIL unless Chuwei explicitly confirms interest
 - Frequent international travel: FLAG (discuss with user)
+- H-1B transfer sponsorship required: PASS only if employer can sponsor or transfer H-1B
+- PERM / green card processing support preferred: FLAG if not mentioned, ask before treating as a deal-breaker
 
 ### 5. Career Alignment & Motivation (0-100)
 Does this role advance career goals and contain tasks that energize?
@@ -73,8 +76,8 @@ Does this role advance career goals and contain tasks that energize?
 - Non-task factors: leadership style, department culture, company values, degree of autonomy
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: Salary and financial baseline not provided.
-- **Flexibility**: Resume lists New Jersey with work in New York, NY; exact commute, remote, and hybrid preferences need confirmation.
+- **Security**: Minimum compensation is $165k. Treat roles below this as a likely skip unless there is strong strategic upside.
+- **Flexibility**: Primary market is Greater NYC / New Jersey. Relocation is acceptable for Seattle and California. Open to onsite, hybrid, and remote roles in preferred locations.
 - **Professional development**: Prefer roles that deepen backend architecture, distributed systems, production operations, and technical ownership.
 
 ### 6. Salary Benchmark (Optional)
