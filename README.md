@@ -8,7 +8,7 @@ An AI-powered job application framework built on [Claude Code](https://claude.co
 
 ## What this is
 
-A structured workflow that turns Claude Code into a full-stack job application assistant. The core workflow (self-profiling, fit evaluation, and the drafter-reviewer application pipeline) is **language- and country-agnostic**. The job portal search skills are built for the Danish market (Jobindex, Jobnet, Akademikernes Jobbank, etc.), but the pattern is designed to be swapped for your local job boards.
+A structured workflow that turns Claude Code into a full-stack job application assistant. The core workflow (self-profiling, fit evaluation, and the drafter-reviewer application pipeline) is **language- and country-agnostic**. The job search skills are configured for the **US market** (LinkedIn, Greenhouse, Lever, Ashby, Workday, and company career pages). The legacy Danish job portal CLI tools (Jobindex, Jobnet, Akademikernes Jobbank, Jobdanmark) remain in `.agents/skills/` as reference implementations but are no longer used by the `/scrape` workflow.
 
 ```
 /setup          /scrape              /apply <url>
@@ -32,7 +32,7 @@ The framework encodes career guidance best practices, including structured evalu
 
 - [Claude Code](https://claude.com/claude-code) (CLI)
 - Python 3.10+
-- [Bun](https://bun.sh) (for Danish job search CLI tools)
+- [Bun](https://bun.sh) (only needed for legacy Danish job search CLI tools; not required for US-market `/scrape`)
 - LaTeX distribution with `lualatex` and `xelatex`: [TeX Live](https://tug.org/texlive/) or [MiKTeX](https://miktex.org/). The CV compiles with `lualatex` (pdflatex often fails on modern MiKTeX installs with `fontawesome5` font-expansion errors); the cover letter compiles with `xelatex` because `cover.cls` requires `fontspec`.
 
 ## Quick start
@@ -44,14 +44,11 @@ gh repo fork MadsLorentzen/ai-job-search --clone
 cd ai-job-search
 ```
 
-### 2. Install job search tools
+### 2. Job search tools
 
-```bash
-cd .agents/skills/jobbank-search/cli && bun install && cd ../../../..
-cd .agents/skills/jobdanmark-search/cli && bun install && cd ../../../..
-cd .agents/skills/jobindex-search/cli && bun install && cd ../../../..
-cd .agents/skills/jobnet-search/cli && bun install && cd ../../../..
-```
+The `/scrape` workflow now uses WebSearch and WebFetch against authentic US job sources (LinkedIn, Greenhouse, Lever, Ashby, Workday, and company career pages). No local CLI tools are required for job search.
+
+The legacy Danish job portal CLI tools (Bun/TypeScript) remain in `.agents/skills/` as reference implementations. They are not used by the current US-market workflow.
 
 ### 3. Set up your profile
 
@@ -69,12 +66,12 @@ claude
 /scrape
 ```
 
-This searches multiple job portals for positions matching your profile, deduplicates results, and presents them sorted by fit. Pick a match to run `/apply` on it directly.
+This searches multiple US job sources (LinkedIn, Greenhouse, Lever, Ashby, Workday, company career pages) for positions matching your profile, applies strict hard filters (location, compensation, sponsorship), deduplicates results, and presents them sorted by fit. Pick a match to run `/apply` on it directly.
 
 ### 5. Apply to a job
 
 ```bash
-/apply https://jobindex.dk/job/1234567
+/apply https://jobs.lever.co/example/abc123
 ```
 
 If the URL can't be fetched (some job portals block automated access), you can paste the job description directly instead:
@@ -198,7 +195,7 @@ The CV uses [moderncv](https://ctan.org/pkg/moderncv) (banking style). The cover
 
 ### Job search tools
 
-The four CLI tools in `.agents/skills/` are specific to the **Danish job market** (Jobbank, Jobdanmark, Jobindex, Jobnet). They demonstrate the pattern for building job portal integrations. If you're in a different country, you can build equivalent tools for your local job portals using the same structure.
+The `/scrape` workflow searches authentic US job sources via WebSearch and WebFetch: LinkedIn, Greenhouse, Lever, Ashby, Workday, and company career pages. The legacy Danish job portal CLI tools (Jobbank, Jobdanmark, Jobindex, Jobnet) remain in `.agents/skills/` as reference implementations demonstrating the pattern for building job portal integrations.
 
 ### Salary benchmarking
 
