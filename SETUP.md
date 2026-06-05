@@ -22,9 +22,9 @@ Python 3.10+ is required for the salary lookup tool. Check with:
 python --version
 ```
 
-### Bun (for job search tools)
+### Bun (for legacy Danish job search tools)
 
-The Danish job portal CLIs are written in TypeScript and run with Bun:
+The legacy Danish job portal CLIs are written in TypeScript and run with Bun. Bun is **not required** for the current US-market `/scrape` workflow (which uses WebSearch/WebFetch). Only install if you plan to use or modify the Danish CLI tools in `.agents/skills/`:
 
 ```bash
 curl -fsSL https://bun.sh/install | bash
@@ -49,7 +49,11 @@ cd ai-job-search
 
 Or manually: fork on GitHub, then clone your fork.
 
-## 3. Install job search CLI dependencies
+## 3. Job search setup
+
+The current `/scrape` workflow searches US job sources (LinkedIn, Greenhouse, Lever, Ashby, Workday, and company career pages) using WebSearch and WebFetch — no local CLI tools to install.
+
+The legacy Danish job portal CLI tools are available in `.agents/skills/`. To install them (optional):
 
 ```bash
 for tool in jobbank-search jobdanmark-search jobindex-search jobnet-search; do
@@ -121,7 +125,7 @@ This creates `salary_data.json` which the `/apply` workflow uses for salary benc
 Find a job posting you're interested in, then:
 
 ```
-/apply https://jobindex.dk/job/1234567
+/apply https://jobs.lever.co/example/abc123
 ```
 
 Or paste the job description directly:
@@ -154,8 +158,8 @@ cd cover_letters && xelatex cover_<company>_<role>.tex && cd ..
 ### "salary_data.json not found"
 This is expected if you haven't set up salary benchmarking. The `/apply` workflow skips this step automatically.
 
-### Job search CLI tools not working
-Make sure Bun is installed and you ran `bun install` in each CLI directory. The tools require network access to fetch job listings.
+### Job search not returning results
+The `/scrape` workflow uses WebSearch and WebFetch against US job sources. Ensure you have an active internet connection. If results seem sparse, try running `/scrape broad` to search all query categories. The legacy Danish CLI tools are not used by the current US-market workflow.
 
 ### LaTeX compilation errors
 - CV: uses `lualatex` (pdflatex often fails on modern MiKTeX with `fontawesome5` font-expansion errors; lualatex handles the same sources cleanly)
